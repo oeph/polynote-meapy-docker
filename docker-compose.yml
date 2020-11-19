@@ -2,7 +2,7 @@ version: "3"
 
 services:
   polynote:
-    image: polynotemeapydocker
+    image: polynote-meapy-docker
     command: --config /opt/config/config.yml
     volumes:
       - ./data/config:/opt/config/
