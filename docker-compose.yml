@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  polynote:
+    image: polynotemeapydocker
+    command: --config /opt/config/config.yml
+    volumes:
+      - ./data/config:/opt/config/
+      - ./data/notebooks:/opt/notebooks
+    ports:
+      - 8192:8192
