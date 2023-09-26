@@ -2,7 +2,7 @@
 FROM openjdk:8-slim-buster
 LABEL Polynote Dockerfile with Meapy
 
-ARG POLYNOTE_VERSION="0.5.2"
+ARG POLYNOTE_VERSION="0.5.1"
 ARG SCALA_VERSION="2.11"
 ARG DIST_TAR="polynote-dist.tar.gz"
 
