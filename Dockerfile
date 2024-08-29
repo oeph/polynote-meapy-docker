@@ -19,7 +19,7 @@ RUN wget -q https://github.com/polynote/polynote/releases/download/$POLYNOTE_VER
 RUN pip3 install -r ./polynote/requirements.txt
 
 RUN python3 -m pip install --upgrade pip
-RUN pip3 install numpy pandas meapy matplotlib
+RUN pip3 install numpy pandas meapy==0.0.11 matplotlib
 
 # to wrap up, we create (safe)user
 ENV UID 1000
